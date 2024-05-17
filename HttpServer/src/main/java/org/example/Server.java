@@ -35,7 +35,7 @@ public class Server {
                 pw.println("HTTP/1.1 200 OK"); // код ответа http сервера, если все в порядке и сервер запущен
                 pw.println("Content-Type: text/html; charset=utf-8"); // кодировка символов в привычном нам стандарте utf-8
                 pw.println();
-                pw.println("<p>Итоговый проект за 10 класс</p>"); // сообщение которое мы выводим на серввер
+                pw.println("<p>final result</p>"); // сообщение которое мы выводим на серввер
                 pw.flush(); // очищает поток вывода для оптимизации работы
                 String wordToStop2 = scan.nextLine(); // ввод стоп слова в консоль
                 if (wordToStop2.equals(wordToStop1)) { // если стоп слово введенное в консоль идентично стоп слову указанному выше, то:
